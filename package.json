@@ -2,7 +2,7 @@
   "name": "my-reactapp",
   "version": "1.0.0",
   "description": "My React App",
-  "main": "index.js",
+  "main": "./main.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
