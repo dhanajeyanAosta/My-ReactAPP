@@ -7,6 +7,10 @@
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
+  "engines": {
+    "node": "10.16.0",
+    "npm": "6.9.0"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
