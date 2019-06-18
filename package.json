@@ -2,11 +2,12 @@
   "name": "my-reactapp",
   "version": "1.0.0",
   "description": "My React App",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
+    "dev": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
-    "heroku-postbuild": "webpack -p"
+    "postinstall": "webpack -p",
+    "start":"node server.js"
   },
   "engines": {
     "node": "10.16.0",
