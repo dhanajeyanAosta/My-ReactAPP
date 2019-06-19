@@ -9,8 +9,7 @@ module.exports = {
       //filename: 'index.js'
    },
    devServer: {
-      inline: true,
-      port: process.env.port ||3001
+      inline: true
    },
    module: {
       rules: [
